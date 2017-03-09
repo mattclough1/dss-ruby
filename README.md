@@ -1,15 +1,14 @@
 ![DSS](http://cl.ly/image/2p0C122U0N32/logo.png)
-- **[Official Logo](http://cl.ly/image/2p0C122U0N32/logo.png)**
 
 **DSS**, Documented Style Sheets is a comment guide and parser for CSS, LESS, STYLUS, SASS and SCSS code. This project does static file analysis and parsing to generate an object to be used for generating styleguides.
+
+This is a Ruby port of the original version by Darcy Clarke (https://github.com/DSSWG/DSS)
 
 
 ##### Table of Contents
 
 - [Parsing a File](#parsing-a-file)
-  - ~~dss.detector~~ (Removed in this version of the Ruby port)
   - [`dss.parser`](#dssparser-name-callback-)
-- [Other Projects](#other-projects)
 
 ### Parsing a File
 
